@@ -1,0 +1,24 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "A simple youtube clone built during our NTI internship using Angular + Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:generate": "jsdoc -c jsdoc.json",
+    "docs:serve": "http-server docs/ -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crypt212/youtube_clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Crypt212/youtube_clone/issues"
+  },
+  "homepage": "https://github.com/Crypt212/youtube_clone#readme",
+  "devDependencies": {
+    "jsdoc": "^4.0.5"
+  }
+}
