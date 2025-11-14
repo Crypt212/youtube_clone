@@ -29,12 +29,12 @@
 
 ---
 
-### 👤 2. User & Subscription Module
-- [ ] GET    `/users/:id` — get profile
-- [ ] PATCH  `/users/:id` (PATCH) — edit info
-- [ ] POST   `/users/:id/subscribe` — toggle subscribe
-- [ ] GET    `/users/:id/videos` — list uploads
-- [ ] GET    `/users/:id/subscribers` — list subscribers
+### 👤 2. Channel Module
+- [ ] GET    `/channels/:id` — get user channel
+- [ ] PATCH  `/channels/:id` (PATCH) — edit info
+- [ ] POST   `/channels/:id/subscribe` — toggle subscribe
+- [ ] GET    `/channels/:id/videos` — list uploads
+- [ ] GET    `/channels/:id/subscribers` — list subscribers
 
 ---
 
@@ -87,22 +87,22 @@
 
 ---
 
-### 📺 8. Videos
+### 🧑‍💻 8. Channel
+- [ ] ExploreChannelsPage — `/channels`
+- [ ] ChannelPage — show user uploads, subscribe button
+- [ ] MyChannelPage — show my uploads
+- [ ] UploadForm — `/videos/upload`
+- [ ] EditChannelForm — update user info
+
+---
+
+### 📺 9. Videos
 - [ ] ExploreVideosPage — fetch `/videos`
 - [ ] WatchVideoPage — video player + comments
 - [ ] VideoCard component
 - [ ] RelatedVideos component
 - [ ] CommentSection component
 - [ ] LikeButton component
-
----
-
-### 🧑‍💻 9. Channel
-- [ ] ExploreChannelsPage — `/channels`
-- [ ] ChannelPage — show user uploads, subscribe button
-- [ ] MyChannelPage — show my uploads
-- [ ] UploadForm — `/videos/upload`
-- [ ] EditChannelForm — update user info
 
 ---
 
@@ -124,9 +124,6 @@
 ### 🧩 12. UI Components
 - [ ] Navbar (login/logout/profile)
 - [ ] Sidebar (routes)
-- [ ] VideoPlayer
-- [ ] Loader + Toast components
-- [ ] ProtectedRoute wrapper
 
 ---
 
