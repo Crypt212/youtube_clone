@@ -1,4 +1,4 @@
-export default function authenticate(req, res, next) {
+export function authenticate(req, res, next) {
     const accessToken = req.headers.authorization;
 
     try {
@@ -17,7 +17,7 @@ export default function authenticate(req, res, next) {
     next();
 }
 
-export default function authorize(req, res, next) {
+export function authorizeAdmin(req, res, next) {
     if (req.userRole !== "admin")
         return res.status(403).json({ message: "Forbidden" });
 

@@ -35,7 +35,7 @@ export default class AuthController {
         });
     }
 
-    static async signin(req, res) {
+    static async login(req, res) {
         const { email, password } = matchedData(req, { includeOptionals: true });
         const refreshTokenDurationMs = 1000 * 60 * 60 * 24 * 7;
         const accessTokenDurationMs = 1000 * 60 * 60;
@@ -58,7 +58,7 @@ export default class AuthController {
         });
     }
 
-    static async signout(req, res) {
+    static async logout(req, res) {
         const refreshToken = req.cookies.refreshToken;
 
         await User.signout({ refreshToken });
@@ -138,6 +138,15 @@ export default class AuthController {
 
         res.status(200).json({
             status: "success",
+        });
+    }
+
+    static async getMe(req, res) {
+        const user = await User.findById(req.userId).select("-password -profilePic -createdAt").lean();
+
+        res.status(200).json({
+            status: "success",
+            user
         });
     }
 }

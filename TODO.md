@@ -3,22 +3,24 @@
 ## ⚙️ Backend Tasks
 
 ### 🧩 1. Setup & Config
-- [ ] Initialize Express app
-- [ ] Setup MongoDB + Mongoose
-- [ ] Setup environment variables
-- [ ] Configure Multer for uploads
-- [ ] Add CORS, Morgan, Helmet middlewares
-- [ ] JWT auth middleware (verifyToken)
-- [ ] Role-based middleware (adminOnly)
+- [+] Initialize Express app
+- [+] Setup MongoDB + Mongoose
+- [+] Setup environment variables
+- [+] Configure Multer for uploads
+- [+] Add CORS, Helmet middlewares
+- [+] JWT auth middleware (verifyToken)
+- [+] Role-based middleware (adminOnly)
 
 ---
 
 ### 🔐 2. Auth Module
-- [ ] `/auth/signup` — create user
-- [ ] `/auth/login` — JWT issue
-- [ ] `/auth/forgot-password` — send token to email
-- [ ] `/auth/reset-password` — update password
-- [ ] `/auth/me` — get logged-in user info
+- [+] `/auth/signup` — create user
+- [+] `/auth/login` — login
+- [+] `/auth/logout` — logout
+- [+] `/auth/verfy-email` — verify email
+- [+] `/auth/forgot-password` — send token to email
+- [+] `/auth/reset-password` — update password
+- [+] `/auth/me` — get logged-in user info
 
 ---
 
@@ -34,7 +36,6 @@
 ### 🎥 4. Video Module
 - [ ] `/videos/upload` — video upload
 - [ ] `/videos` — explore all videos
-- [ ] `/videos/trending` — get trending
 - [ ] `/videos/:id` — get single video
 - [ ] `/videos/:id/like` — like/unlike
 - [ ] `/videos/:id/view` — increment views

@@ -2,6 +2,7 @@ import { Router } from "express";
 import AuthController from "../controllers/authController";
 import { body, header, query } from "express-validator";
 import upload from "../config/multer.js";
+import { authenticate } from "../middlewares/authMiddleware.js";
 
 const AuthRouter = Router();
 
@@ -22,7 +23,7 @@ AuthRouter.post("/signup",
     upload.single("profilePic"),
     AuthController.signup);
 
-AuthRouter.post("/signin",
+AuthRouter.post("/login",
     body("email").trim().notEmpty().isEmail().normalizeEmail().withMessage("invalid username"),
     body("password").notEmpty().isStrongPassword({
         minLength: 8,
@@ -31,9 +32,9 @@ AuthRouter.post("/signin",
         minNumbers: 1,
         minSymbols: 1
     }).withMessage("invalid password"),
-    AuthController.signin);
+    AuthController.login);
 
-AuthRouter.post("/signout", AuthController.signout);
+AuthRouter.post("/logout", AuthController.logout);
 
 AuthRouter.post("/regenerate-access-token", AuthController.regenerateAccessToken);
 
@@ -56,5 +57,7 @@ AuthRouter.post("/reset-password",
         minSymbols: 1
     }).withMessage("invalid password"),
     AuthController.resetPassword);
+
+AuthRouter.get("/get-me", authenticate(), AuthController.getMe);
 
 export default AuthRouter;
