@@ -2,6 +2,7 @@ import express from "express";
 import rateLimit from "express-rate-limit";
 import helmet from "helmet";
 import cors from "cors";
+import cookieParser from "cookie-parser";
 import "dotenv/config";
 
 import logger from "./config/logger.js";
@@ -39,6 +40,7 @@ app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors(corsConfig));
+app.use(cookieParser());
 
 // -------------------------------------------
 
