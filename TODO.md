@@ -69,12 +69,9 @@
 
 ## 💻 Frontend Tasks
 
-### 🧱 8. Setup
-- [ ] Initialize React + Vite
-- [ ] Install Tailwind CSS
-- [ ] Setup React Router
-- [ ] Setup global Axios config
-- [ ] Auth context (user state + JWT storage)
+### 🧱 8. Setup (Small Task)
+- [+] Initialize Angular
+- [+] Install Tailwind CSS
 
 ---
 
