@@ -1,9 +1,10 @@
 import nodemailer from "nodemailer";
 import "dotenv/config";
 
-import logger from "./logger.js";
+import logger from "../config/logger.js";
 
 export async function sendEmail(from, to, subject, text) {
+    logger.info({from, to, subject, text});
     const transporter = nodemailer.createTransport({
         host: process.env.EMAIL_HOST,
         port: process.env.EMAIL_PORT,

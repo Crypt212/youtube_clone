@@ -1,11 +1,12 @@
 import mongoose, { ObjectId } from "mongoose";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import Session from "./Session";
+import Session from "./Session.js";
+import APIError from "../utils/APIError.js";
 
 const UserSchema = new mongoose.Schema({
-    username: String,
-    email: String,
+    username: { type: String, unique: true },
+    email: { type: String, unique: true },
     password: String,
     verified: { type: Boolean, default: false },
     firstName: String,
@@ -18,25 +19,39 @@ const UserSchema = new mongoose.Schema({
     timestamps: true
 });
 
+UserSchema.index({ username: 1, email: 1 });
+
 UserSchema.statics.addUser = async function({ username, email, password, firstName, lastName, profilePic }) {
+    if (await this.findOne({ email }) || await this.findOne({ username }))
+        throw new APIError("User with this email or username already exists", 400, null, "Verification Error");
+
     const hashedPassword = await bcrypt.hash(password, 10);
     const user = new this({ username, email, password: hashedPassword, firstName, lastName, profilePic });
     await user.save();
     return user;
 }
 
-UserSchema.statics.signin = async function(email, password, deviceInfo, refreshTokenDurationMs, accessTokenDurationMs) {
+UserSchema.statics.authenticateUser = async function(email, password) {
     const user = await this.findOne({ email });
 
-    if (!user) throw new Error("User not found");
+    if (!user)
+        throw new APIError("Invalid credentials", 400, null, "Verification Error");
 
-    if (!await bcrypt.compare(password, user.password)) throw new Error("invalid password");
+    if (!await bcrypt.compare(password, user.password))
+        throw new APIError("Invalid credentials", 400, null, "Verification Error");
 
-    if (!user.verified) throw new Error("Email not verified");
+    if (!user.verified)
+        throw new APIError("Email not verified", 400, null, "Verification Error");
+
+    return user;
+}
+
+UserSchema.statics.signin = async function(email, password, deviceInfo, refreshTokenDurationMs, accessTokenDurationMs) {
+    const user = await this.authenticateUser(email, password);
 
     let session = await Session.findOne({ user: user._id, deviceInfo });
-    if (!session || session.expiresAt < new Date()) {
 
+    if (!session || session.expiresAt < new Date()) {
         if (session)
             await session.deleteOne();
 
@@ -53,7 +68,7 @@ UserSchema.statics.signin = async function(email, password, deviceInfo, refreshT
 
         return refreshToken;
     } else
-        return null
+        throw new APIError("User already signed in", 400, null, "Verification Error");
 }
 
 UserSchema.statics.signout = async function(filter) {
@@ -75,21 +90,26 @@ UserSchema.statics.signout = async function(filter) {
 
 UserSchema.statics.grantAccessToken = async function(refreshToken) {
 
-    const payload = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET);
+    let payload;
+    try {
+        payload = jwt.verify(refreshToken, process.env.JWT_REFRESH_SECRET);
+    } catch (error) {
+        throw new APIError(error.message, 400, error);
+    }
     const user = await this.findById(payload.userId);
 
     if (!user)
-        throw new Error("User not found");
+        throw new APIError("User not found", 400, null, "Verification Error");
 
     const session = await Session.findByRefreshToken(refreshToken);
 
     if (!session) {
-        throw new Error("Invalid refresh token");
+        throw new APIError("Invalid refresh token", 400, null, "Verification Error");
     }
 
     if (session.expiresAt < new Date()) {
         await session.deleteOne();
-        throw new Error("Refresh token expired");
+        throw new APIError("Refresh token expired", 400, null, "Token Error");
     }
 
     const accessToken = jwt.sign(

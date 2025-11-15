@@ -1,63 +1,94 @@
 import { Router } from "express";
-import AuthController from "../controllers/authController";
-import { body, header, query } from "express-validator";
+import { body, query } from "express-validator";
+
 import upload from "../config/multer.js";
+import AuthController from "../controllers/authController.js";
 import { authenticate } from "../middlewares/authMiddleware.js";
+import validate from "../middlewares/validator.js";
+
+const validationList = {
+    username:
+        body("username").trim().notEmpty().withMessage("username is required")
+            .matches(/^[a-zA-Z0-9\.-_]+$/).withMessage("username can only contain letters, numbers, ., - and _")
+            .isLength({ min: 3, max: 20 }).withMessage("username must be between 3 and 20 characters")
+            .escape(),
+    email:
+        body("email").trim().notEmpty().withMessage("email is required")
+            .isEmail().withMessage("email must be valid"),
+            // .normalizeEmail(),
+    password:
+        body("password").notEmpty().withMessage("password is required")
+            .isStrongPassword({
+                minLength: 8,
+                minLowercase: 1,
+                minUppercase: 1,
+                minNumbers: 1,
+                minSymbols: 1
+            }).withMessage("password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special"),
+    confrimPassword:
+        body("confirmPassword").custom((value, { req }) => value === req.body.password).withMessage("confirm password must match password"),
+    firstName:
+        body("firstName").trim().notEmpty().withMessage("first name is required")
+            .matches(/^[a-zA-Z0-9 ]+$/).withMessage("first name can only contain letters, numbers and spaces")
+            .isLength({ min: 3, max: 20 }).withMessage("first name must be between 3 and 20 characters")
+            .escape(),
+    secondName:
+        body("secondName").trim().notEmpty().withMessage("first name is required")
+            .matches(/^[a-zA-Z0-9 ]+$/).withMessage("second name can only contain letters, numbers and spaces")
+            .isLength({ min: 3, max: 20 }).withMessage("second name must be between 3 and 20 characters")
+            .escape(),
+
+    emailVerificationToken:
+        query("emailVerificationToken").notEmpty().withMessage("invalid verification token"),
+
+    resetPasswordToken:
+        query("resetPasswordToken").notEmpty().withMessage("invalid reset password token")
+};
 
 const AuthRouter = Router();
 
 AuthRouter.post("/signup",
-    body("username")
-        .trim().notEmpty().matches(/^[a-zA-Z0-9\.-_]+$/).isLength({ min: 3, max: 20 }).escape().withMessage("invalid username"),
-    body("email").trim().notEmpty().isEmail().normalizeEmail().withMessage("invalid username"),
-    body("password").notEmpty().isStrongPassword({
-        minLength: 8,
-        minLowercase: 1,
-        minUppercase: 1,
-        minNumbers: 1,
-        minSymbols: 1
-    }).withMessage("invalid password"),
-    body("passwordConfirm").custom((value, { req }) => value === req.body.password).withMessage("passwords do not match"),
-    body("firstName").trim().notEmpty().matches(/^[a-zA-Z0-9 ]+$/).escape().isLength({ min: 3, max: 20 }).withMessage("invalid first name"),
-    body("lastName").trim().notEmpty().matches(/^[a-zA-Z0-9 ]+$/).escape().isLength({ min: 3, max: 20 }).withMessage("invalid last name"),
+    validationList.username,
+    validationList.email,
+    validationList.password,
+    validationList.confrimPassword,
+    validationList.firstName,
+    validationList.secondName,
+    validate,
     upload.single("profilePic"),
     AuthController.signup);
 
 AuthRouter.post("/login",
-    body("email").trim().notEmpty().isEmail().normalizeEmail().withMessage("invalid username"),
-    body("password").notEmpty().isStrongPassword({
-        minLength: 8,
-        minLowercase: 1,
-        minUppercase: 1,
-        minNumbers: 1,
-        minSymbols: 1
-    }).withMessage("invalid password"),
+    validationList.email,
+    validationList.password,
+    validate,
     AuthController.login);
 
 AuthRouter.post("/logout", AuthController.logout);
 
 AuthRouter.post("/regenerate-access-token", AuthController.regenerateAccessToken);
 
-
 AuthRouter.post("/verify-email",
-    body("verficationToken").notEmpty().withMessage("invalid token"),
+    validationList.emailVerificationToken,
+    validate,
     AuthController.verifyEmail);
 
+AuthRouter.post("/send-email-verification",
+    validationList.email,
+    validationList.password,
+    validate,
+    AuthController.sendEmailVerification);
+
 AuthRouter.post("/forgot-password",
-    body("email").trim().notEmpty().isEmail().normalizeEmail().withMessage("invalid username"),
+    validationList.email,
+    validate,
     AuthController.forgotPassword);
 
 AuthRouter.post("/reset-password",
-    body("resetPasswordToken").notEmpty().withMessage("invalid token"),
-    body("password").notEmpty().isStrongPassword({
-        minLength: 8,
-        minLowercase: 1,
-        minUppercase: 1,
-        minNumbers: 1,
-        minSymbols: 1
-    }).withMessage("invalid password"),
+    validationList.resetPasswordToken,
+    validationList.password,
     AuthController.resetPassword);
 
-AuthRouter.get("/get-me", authenticate(), AuthController.getMe);
+AuthRouter.get("/get-me", authenticate, AuthController.getMe);
 
 export default AuthRouter;

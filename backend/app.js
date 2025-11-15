@@ -7,6 +7,7 @@ import "dotenv/config";
 
 import logger from "./config/logger.js";
 import errorHandler from "./middlewares/errorHandler.js";
+import AuthRouter from "./routes/authRoutes.js";
 
 const app = express();
 
@@ -39,7 +40,7 @@ app.use(rateLimiter);
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors(corsConfig));
+// app.use(cors(corsConfig));
 app.use(cookieParser());
 
 // -------------------------------------------
@@ -49,7 +50,7 @@ app.use(cookieParser());
 
 const apiRouter = express.Router();
 
-
+apiRouter.use('/auth', AuthRouter);
 
 app.use('/api', apiRouter);
 

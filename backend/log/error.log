@@ -1,0 +1,1508 @@
+
+{
+  error: 'ReferenceError',
+  message: 'name is not defined',
+  trace: 'ReferenceError: name is not defined\n' +
+    '    at new APIError (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/utils/APIError.js:6:21)\n' +
+    '    at validate (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/middlewares/validator.js:19:11)\n' +
+    '    at Layer.handleRequest (/home/crypt/Development/projects/web-apps/youtube-clone/backend/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/home/crypt/Development/projects/web-apps/youtube-clone/backend/node_modules/router/lib/route.js:157:13)\n' +
+    '    at middleware (/home/crypt/Development/projects/web-apps/youtube-clone/backend/node_modules/express-validator/lib/middlewares/check.js:16:13)',
+  level: 'error',
+  timestamp: '2025-11-15T15:00:57.455Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid username",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid email",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid first name",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid last name",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:01:25.222Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid username",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid email",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid first name",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid last name",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:01:56.328Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid username",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid email",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid first name",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid last name",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:04:03.361Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid username",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid email",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "passwords do not match",\n' +
+    '        "path": "passwordConfirm",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid first name",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid last name",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:04:33.916Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid username",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid email",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "passwords do not match",\n' +
+    '        "path": "passwordConfirm",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid first name",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid last name",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:07:46.835Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid username",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid email",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "passwords do not match",\n' +
+    '        "path": "passwordConfirm",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid first name",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid last name",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:09:06.642Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:12:28.723Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: []\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:46:13.420Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:46:39.390Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:48:05.678Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:48:22.715Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:48:41.872Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:53:14.426Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:53:20.945Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:54:37.718Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:55:23.837Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:56:52.057Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed@example"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:05.781Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:08.762Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed1"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:19.374Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:39.001Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:50.168Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:59:07.568Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:04:11.123Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:04:13.590Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:08:25.370Z'
+}
+{
+  error: 'ReferenceError',
+  message: 'accessToken is not defined',
+  trace: 'ReferenceError: accessToken is not defined\n' +
+    '    at signup (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/controllers/authController.js:41:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  level: 'error',
+  timestamp: '2025-11-15T16:13:06.271Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:20:23.163Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:33:39.620Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "jj"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:34:24.468Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:34:38.543Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:36:20.515Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:36:24.231Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:37:32.440Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:37:37.702Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:38:41.925Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:38:48.779Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:39:40.558Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:40:25.639Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:47:52.020Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:48:10.335Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: JsonWebTokenError: jwt must be provided\n' +
+    'Message: Verfication Error\n' +
+    'Status: Invalid or expired verification token\n' +
+    'Details: 400\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:04:40.561Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:12:28.087Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "invalid verification token",\n' +
+    '        "field": "verificationToken"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:22:36.816Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "invalid verification token",\n' +
+    '        "field": "verificationToken"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:23:52.904Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "invalid verification token",\n' +
+    '        "field": "emailVerificationToken"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:25:40.437Z'
+}
+{
+  error: 'ReferenceError',
+  message: 'sessionId is not defined',
+  trace: 'ReferenceError: sessionId is not defined\n' +
+    '    at SessionSchema.statics.findByRefreshToken (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/models/Session.js:26:44)\n' +
+    '    at UserSchema.statics.grantAccessToken (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/models/User.js:104:35)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async login (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/controllers/authController.js:35:29)',
+  level: 'error',
+  timestamp: '2025-11-15T17:30:16.182Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User already signed in\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:33:29.743Z'
+}

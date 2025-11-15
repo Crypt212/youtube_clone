@@ -1,0 +1,2172 @@
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T14:59:15.967Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T14:59:16.059Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T14:59:16.066Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T14:59:22.102Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T14:59:22.188Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T14:59:22.193Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:00:54.856Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:00:54.957Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:00:54.963Z'
+}
+{
+  error: 'ReferenceError',
+  message: 'name is not defined',
+  trace: 'ReferenceError: name is not defined\n' +
+    '    at new APIError (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/utils/APIError.js:6:21)\n' +
+    '    at validate (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/middlewares/validator.js:19:11)\n' +
+    '    at Layer.handleRequest (/home/crypt/Development/projects/web-apps/youtube-clone/backend/node_modules/router/lib/layer.js:152:17)\n' +
+    '    at next (/home/crypt/Development/projects/web-apps/youtube-clone/backend/node_modules/router/lib/route.js:157:13)\n' +
+    '    at middleware (/home/crypt/Development/projects/web-apps/youtube-clone/backend/node_modules/express-validator/lib/middlewares/check.js:16:13)',
+  level: 'error',
+  timestamp: '2025-11-15T15:00:57.455Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:01:22.695Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:01:22.798Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:01:22.807Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid username",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid email",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid first name",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid last name",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:01:25.222Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid username",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid email",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid first name",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid last name",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:01:56.328Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:03:58.118Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:03:58.213Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:03:58.217Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid username",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid email",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid first name",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "invalid last name",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:04:03.361Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:04:26.380Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:04:26.468Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:04:26.479Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid username",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid email",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "passwords do not match",\n' +
+    '        "path": "passwordConfirm",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid first name",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid last name",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:04:33.916Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:07:44.803Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:07:44.879Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:07:44.885Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid username",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid email",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "passwords do not match",\n' +
+    '        "path": "passwordConfirm",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid first name",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid last name",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:07:46.835Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:09:04.308Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:09:04.392Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:09:04.397Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid username",\n' +
+    '        "path": "username",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid email",\n' +
+    '        "path": "email",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "invalid password, must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "path": "password",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "msg": "passwords do not match",\n' +
+    '        "path": "passwordConfirm",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid first name",\n' +
+    '        "path": "firstName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "Invalid value",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "type": "field",\n' +
+    '        "value": "",\n' +
+    '        "msg": "invalid last name",\n' +
+    '        "path": "lastName",\n' +
+    '        "location": "body"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:09:06.642Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:12:22.355Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:12:22.428Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:12:22.434Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:12:26.737Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:12:26.810Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:12:26.814Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "Invalid value",\n' +
+    '        "field": "lastName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:12:28.723Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:46:10.144Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:46:10.222Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:46:10.227Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: []\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:46:13.420Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:46:38.510Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:46:38.577Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:46:38.581Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:46:39.390Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:48:05.678Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:48:22.715Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:48:41.872Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:49:28.071Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:49:28.153Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:49:28.159Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "username is required",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username can only contain letters, numbers, ., - and _",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "username must be between 3 and 20 characters",\n' +
+    '        "field": "username",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:53:14.426Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:53:20.945Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name can only contain letters, numbers and spaces",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name must be between 3 and 20 characters",\n' +
+    '        "field": "firstName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "first name is required",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name can only contain letters, numbers and spaces",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "second name must be between 3 and 20 characters",\n' +
+    '        "field": "secondName",\n' +
+    '        "givenValue": ""\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:54:37.718Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "passwords do not match",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:55:23.837Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:56:48.187Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:56:48.642Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:56:48.647Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:56:52.057Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": "ahmed@example"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:05.781Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:08.762Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "ahmed1"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:19.374Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:39.001Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "confirm password must match password",\n' +
+    '        "field": "passwordConfirm"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:57:50.168Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T15:58:31.882Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T15:58:31.965Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T15:58:31.973Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T15:59:07.568Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:02:13.085Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:02:13.207Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:02:13.214Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:03:29.042Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:03:29.132Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:03:29.137Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:03:56.319Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:03:56.391Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:03:56.397Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:04:11.123Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:04:13.590Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:04:51.384Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:04:51.484Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:04:51.495Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:08:25.370Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:12:23.508Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:12:23.599Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:12:23.606Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:12:28.582Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:12:28.669Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:12:28.673Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:13:00.863Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:13:00.940Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:13:00.946Z'
+}
+{
+  error: 'ReferenceError',
+  message: 'accessToken is not defined',
+  trace: 'ReferenceError: accessToken is not defined\n' +
+    '    at signup (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/controllers/authController.js:41:13)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)',
+  level: 'error',
+  timestamp: '2025-11-15T16:13:06.271Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:20:16.491Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:20:16.577Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:20:16.585Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User with this email or username already exists\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:20:23.163Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "email is required",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "email must be valid",\n' +
+    '        "field": "email",\n' +
+    '        "givenValue": ""\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password is required",\n' +
+    '        "field": "password"\n' +
+    '    },\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:33:39.620Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "password must have at least: 8 characters, 1 uppercase, 1 lowercase, 1 number and 1 special",\n' +
+    '        "field": "password",\n' +
+    '        "givenValue": "jj"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:34:24.468Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:34:38.543Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:36:14.708Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:36:15.007Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:36:15.014Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:36:20.515Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:36:24.231Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:37:28.047Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:37:28.127Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:37:28.133Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:37:32.440Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:37:37.702Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:38:08.418Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:38:08.515Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:38:08.520Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:38:35.699Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:38:35.791Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:38:35.796Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:38:41.925Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:38:48.779Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:39:27.473Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:39:27.586Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:39:29.491Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:39:29.620Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:39:29.630Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:39:40.558Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:40:25.639Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T16:47:39.445Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T16:47:39.811Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T16:47:39.816Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:47:52.020Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Email not verified\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T16:48:10.335Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:01:38.080Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:01:38.322Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:01:38.335Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:02:25.266Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:02:25.366Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:02:25.372Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: JsonWebTokenError: jwt must be provided\n' +
+    'Message: Verfication Error\n' +
+    'Status: Invalid or expired verification token\n' +
+    'Details: 400\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:04:40.561Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:05:46.982Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:05:47.066Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:05:47.071Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:06:01.175Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:06:01.247Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:06:01.253Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:09:59.064Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:10:00.522Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:10:00.531Z'
+}
+{
+  message: {
+    from: 'ahmed.elesseily.d@gmail.com',
+    to: 'ahmedelesseilyd@gmail.com',
+    subject: 'Welcome to our app',
+    text: 'http://http://localhost:3000/verify-email?email=ahmedelesseilyd@gmail.com&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFobWVkZWxlc3NlaWx5ZEBnbWFpbC5jb20iLCJpYXQiOjE3NjMyMjY2MDcsImV4cCI6MTc2MzIzMDIwN30.GfNwHP35O69i6liq-phcxxboKSuUancZTXRDXwGfbUg'
+  },
+  level: 'info',
+  timestamp: '2025-11-15T17:10:07.812Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:12:20.530Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:12:21.532Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:12:21.538Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: Invalid credentials\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:12:28.087Z'
+}
+{
+  message: {
+    from: 'ahmed.elesseily.d@gmail.com',
+    to: 'ahmed.elesseily.d@gmail.com',
+    subject: 'Welcome to our app',
+    text: 'http://http://localhost:3000/verify-email?email=ahmed.elesseily.d@gmail.com&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFobWVkLmVsZXNzZWlseS5kQGdtYWlsLmNvbSIsImlhdCI6MTc2MzIyNjc5NCwiZXhwIjoxNzYzMjMwMzk0fQ.gq0ATDYtxZmJP9sEILcR6crYyJzXmQl52WGYluXsFlc'
+  },
+  level: 'info',
+  timestamp: '2025-11-15T17:13:14.967Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:20:11.565Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:20:12.085Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:20:12.088Z'
+}
+{
+  message: {
+    from: 'ahmed.elesseily.d@gmail.com',
+    to: 'ahmed.elesseily.d@gmail.com',
+    subject: 'Welcome to our app',
+    text: 'http://http://localhost:3000/verify-email?email=ahmed.elesseily.d@gmail.com&token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFobWVkLmVsZXNzZWlseS5kQGdtYWlsLmNvbSIsImlhdCI6MTc2MzIyNzIxNywiZXhwIjoxNzYzMjMwODE3fQ.y_lahPPNNpatbANV3Jbij-IctVfJQsgIMW1zAmh07II'
+  },
+  level: 'info',
+  timestamp: '2025-11-15T17:20:17.869Z'
+}
+{
+  message: '<8c38b647-b702-50d9-7f88-a9ed1b1148b9@gmail.com>',
+  level: 'info',
+  timestamp: '2025-11-15T17:20:24.957Z'
+}
+{
+  message: '250 2.0.0 OK  1763227224 ffacd0b85a97d-42b53f1fd50sm16664158f8f.38 - gsmtp',
+  level: 'info',
+  timestamp: '2025-11-15T17:20:24.960Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "invalid verification token",\n' +
+    '        "field": "verificationToken"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:22:36.816Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "invalid verification token",\n' +
+    '        "field": "verificationToken"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:23:52.904Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:25:08.538Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:25:08.756Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:25:08.762Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Validation Error\n' +
+    'Message: Input is invalid\n' +
+    'Status: 400\n' +
+    'Details: [\n' +
+    '    {\n' +
+    '        "message": "invalid verification token",\n' +
+    '        "field": "emailVerificationToken"\n' +
+    '    }\n' +
+    ']\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:25:40.437Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:28:02.503Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:28:02.603Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:28:02.610Z'
+}
+{
+  error: 'ReferenceError',
+  message: 'sessionId is not defined',
+  trace: 'ReferenceError: sessionId is not defined\n' +
+    '    at SessionSchema.statics.findByRefreshToken (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/models/Session.js:26:44)\n' +
+    '    at UserSchema.statics.grantAccessToken (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/models/User.js:104:35)\n' +
+    '    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n' +
+    '    at async login (file:///home/crypt/Development/projects/web-apps/youtube-clone/backend/controllers/authController.js:35:29)',
+  level: 'error',
+  timestamp: '2025-11-15T17:30:16.182Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:32:54.841Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:32:55.091Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:32:55.097Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:33:20.298Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:33:20.380Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:33:20.385Z'
+}
+{
+  message: 'DB connected on mongodb://localhost:27017/youtube-clone',
+  level: 'info',
+  timestamp: '2025-11-15T17:33:21.800Z'
+}
+{
+  message: 'Redis connected on redis://localhost:6379',
+  level: 'info',
+  timestamp: '2025-11-15T17:33:21.881Z'
+}
+{
+  message: 'Listening on port 3000',
+  level: 'info',
+  timestamp: '2025-11-15T17:33:21.891Z'
+}
+{
+  message: 'Error:\n' +
+    'Type: Verification Error\n' +
+    'Message: User already signed in\n' +
+    'Status: 400\n' +
+    'Details: null\n',
+  level: 'error',
+  timestamp: '2025-11-15T17:33:29.743Z'
+}

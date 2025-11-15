@@ -1,7 +1,7 @@
 import multer from "multer";
 import path from "path";
 
-import { createFolder } from "../utils/fileHelper";
+import { createFolder } from "../utils/fileHelper.js";
 
 const fileInfoMap = new Map([
     ["profilePic", {
@@ -61,5 +61,5 @@ const limits = (_, file) => {
     return { fileSize: fileInfo?.maxSize || 5 * 1024 * 1024 };
 };
 
-export default upload = multer({ storage, fileFilter, limits });
-
+const upload = multer({ storage, fileFilter, limits });
+export default upload;

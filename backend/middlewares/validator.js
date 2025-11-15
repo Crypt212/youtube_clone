@@ -1,11 +1,24 @@
 import { validationResult } from "express-validator";
-import logger from "../config/logger";
+import APIError from "../utils/APIError.js";
 
-export default function validator (req, res, next) {
-    const errors = validationResult(req).array;
+export default function validate(req, res, next) {
+    const errors = validationResult(req).array();
 
     if (errors.length == 0)
         return next();
 
-    throw new AggregateError(errors);
+    const details = [];
+
+    console.log(JSON.stringify(errors, null, 4));
+    errors.forEach(error => {
+        details.push(
+            {
+                message: error.msg,
+                field: error.path,
+                givenValue: error.value
+            }
+        );
+    });
+
+    throw new APIError("Input is invalid", 400, details, "Validation Error");
 }
