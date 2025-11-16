@@ -46,29 +46,33 @@ UserSchema.statics.authenticateUser = async function(email, password) {
     return user;
 }
 
-UserSchema.statics.signin = async function(email, password, deviceInfo, refreshTokenDurationMs, accessTokenDurationMs) {
+UserSchema.statics.signin = async function(email, password, deviceInfo, refreshTokenDurationMs, accessTokenDurationMs, refreshToken) {
     const user = await this.authenticateUser(email, password);
 
     let session = await Session.findOne({ user: user._id, deviceInfo });
 
-    if (!session || session.expiresAt < new Date()) {
-        if (session)
+    if (session) {
+        if (session.expiresAt < new Date()) {
             await session.deleteOne();
+            session = undefined;
+        } else if (refreshToken && (await Session.findByRefreshToken(refreshToken)).sessionId == session._id) {
+            return refreshToken;
+        }
+    }
 
-        session = new Session({
-            user: user._id,
-            accessTokenDurationMs,
-            deviceInfo,
-            expiresAt: new Date(Date.now() + refreshTokenDurationMs)
-        });
-        const refreshToken = jwt.sign({ userId: user._id, sessionId: session._id }, process.env.JWT_REFRESH_SECRET, { expiresIn: refreshTokenDurationMs / 1000 });
-        session.refreshTokenHash = await bcrypt.hash(refreshToken, 10);
 
-        await session.save();
+    session = new Session({
+        user: user._id,
+        accessTokenDurationMs,
+        deviceInfo,
+        expiresAt: new Date(Date.now() + refreshTokenDurationMs)
+    });
+    refreshToken = jwt.sign({ userId: user._id, sessionId: session._id }, process.env.JWT_REFRESH_SECRET, { expiresIn: refreshTokenDurationMs / 1000 });
+    session.refreshTokenHash = await bcrypt.hash(refreshToken, 10);
 
-        return refreshToken;
-    } else
-        throw new APIError("User already signed in", 400, null, "Verification Error");
+    await session.save();
+
+    return refreshToken;
 }
 
 UserSchema.statics.signout = async function(filter) {

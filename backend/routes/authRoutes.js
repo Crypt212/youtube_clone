@@ -66,7 +66,7 @@ AuthRouter.post("/login",
 
 AuthRouter.post("/logout", AuthController.logout);
 
-AuthRouter.post("/regenerate-access-token", AuthController.regenerateAccessToken);
+AuthRouter.get("/regenerate-access-token", AuthController.regenerateAccessToken);
 
 AuthRouter.post("/verify-email",
     validationList.emailVerificationToken,

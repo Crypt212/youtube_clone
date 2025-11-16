@@ -1,14 +1,19 @@
+import jwt from "jsonwebtoken";
+import APIError from "../utils/APIError.js";
+
 export function authenticate(req, res, next) {
     const accessToken = req.headers.authorization;
+    let accessTokenPayload;
+
 
     try {
-        const accessTokenPayload = accessToken && jwt.verify(accessToken, process.env.JWT_ACCESS_SECRET);
+        accessTokenPayload = accessToken && jwt.verify(accessToken, process.env.JWT_ACCESS_SECRET);
     } catch (error) {
-        return res.status(401).json({ message: "Unauthorized" });
+        throw new APIError(error.message, 401, error);
     }
 
     if (!accessTokenPayload)
-        return res.status(401).json({ message: "Unauthorized" });
+        throw new APIError("Access token is invalid", 401, null, "Token Error");
 
     req.sessionId = accessTokenPayload.sessionId;
     req.userId = accessTokenPayload.userId;
@@ -19,7 +24,7 @@ export function authenticate(req, res, next) {
 
 export function authorizeAdmin(req, res, next) {
     if (req.userRole !== "admin")
-        return res.status(403).json({ message: "Forbidden" });
+        throw new APIError("Only admin can access this route", 403, null, "Authorization Error");
 
     next();
 }
